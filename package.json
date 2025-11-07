@@ -1,7 +1,7 @@
 {
-  "name": "freelancer-jobs-feed-tracker",
+  "name": "upwork-jobs-feed-tracker",
   "version": "1.2.2",
-  "description": "freelancer jobs feed tracker",
+  "description": "upwork jobs feed tracker",
   "main": "main.js",
   "scripts": {
     "build": "rm -rf ./public; webpack",

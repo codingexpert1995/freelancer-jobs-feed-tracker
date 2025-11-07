@@ -12,21 +12,18 @@ export default {
    * @return {Object}
    */
   feedRequest() {
-    return axios.get(
-      "https://www.freelancer.com/ab/find-work/api/feeds/search",
-      {
-        headers: {
-          "X-Requested-With": "XMLHttpRequest",
-        },
-      }
-    );
+    return axios.get("https://www.upwork.com/ab/find-work/api/feeds/search", {
+      headers: {
+        "X-Requested-With": "XMLHttpRequest",
+      },
+    });
   },
   /**
-   * Make auth check request (required for keeping user authenticated within freelancer)
+   * Make auth check request (required for keeping user authenticated within upwork)
    * @return {Object}
    */
   checkAuthenticated() {
-    return axios.get("https://www.freelancer.com/ab/account-security/login");
+    return axios.get("https://www.upwork.com/ab/account-security/login");
   },
   /**
    * Fetch jobs from server

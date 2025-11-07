@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Freelancer jobs feed tracker",
-	"description": "Freelancer on Freelancer? Meet Freelancer jobs feed tracker. Whenever new job appears in your feed you will get an instant notification!",
+	"name": "upwork jobs feed tracker",
+	"description": "upwork on upwork? Meet upwork jobs feed tracker. Whenever new job appears in your feed you will get an instant notification!",
 	"version": "1.2.2",
 
 	"icons": {
@@ -23,7 +23,7 @@
 		"alarms",
 		"background",
 		"notifications",
-		"https://www.freelancer.com/"
+		"https://www.upwork.com/"
 	],
 	"options_page": "options.html"
 }
